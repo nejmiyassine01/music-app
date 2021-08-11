@@ -30,8 +30,8 @@ export default createStore({
     updatePosition(state) {
       state.seek = helpers.formatTime(state.sound.seek());
       state.duration = helpers.formatTime(state.sound.duration());
-      state.playerProgress = `${(state.sound.seek() / state.sound.duration()) *
-        100}%`;
+      state.playerProgress = `${(state.sound.seek() / state.sound.duration())
+        * 100}%`;
     },
   },
   getters: {
@@ -46,7 +46,7 @@ export default createStore({
     async register({ commit }, payload) {
       const userCred = await auth.createUserWithEmailAndPassword(
         payload.email,
-        payload.password
+        payload.password,
       );
 
       await usersCollection.doc(userCred.user.uid).set({

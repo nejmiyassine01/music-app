@@ -21,7 +21,7 @@
       >
         <h5>{{ $t('manage.drop') }}</h5>
       </div>
-      <input type="file" @change="upload($event)" />
+      <input type="file" multiple @change="upload($event)" />
       <hr class="my-6" />
       <div class="mb-4" v-for="upload in uploads" :key="upload.name">
         <div class="font-bold text-sm" :class="upload.text_class">
@@ -63,8 +63,8 @@ export default {
           return;
         }
 
-        if (!navigator.online) {
-          this.upload.push({
+        if (!navigator.onLine) {
+          this.uploads.push({
             task: {},
             current_progress: 100,
             name: file.name,
