@@ -33,6 +33,9 @@
           }}</span>
           <i class="fa fa-comments float-right text-green-400 text-2xl"></i>
         </div>
+        <div class="text-center font-bold p-4 mb-4" v-if="!comments.length">
+          No Comments Added.
+        </div>
         <div class="p-6">
           <div
             class="text-white text-center font-bold p-4 mb-4"

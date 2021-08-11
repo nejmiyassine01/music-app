@@ -8,7 +8,6 @@
         exact-active-class="no-active"
         >Music</router-link
       >
-
       <div class="flex flex-grow items-center">
         <!-- Primary Navigation -->
         <ul class="flex flex-row">
