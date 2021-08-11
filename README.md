@@ -46,9 +46,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="Images/music.png" alt="music" />
+<img src="Images/music.png" alt="music" width="100" height="100" />
 
-<img src="Images/manage.png" alt="manage" />
+<img src="Images/manage.png" alt="manage" width="100" height="100" />
 
 With Music App Experience music like never before. Music App gets you closer to the songs, albums and artists you love.
 
