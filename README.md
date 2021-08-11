@@ -46,9 +46,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="Images/music.png" alt="music" width="100" height="100" />
+<img src="src/assets/images/music.png" alt="music" width="100" height="100" />
 
-<img src="Images/manage.png" alt="manage" width="100" height="100" />
+<img src="src/assets/images/manage.png" alt="manage" width="100" height="100" />
 
 With Music App Experience music like never before. Music App gets you closer to the songs, albums and artists you love.
 
@@ -125,13 +125,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 For Use the Music App follow this steps.
 
 <p>Go to Music App</p>
-<img src="Images/music.png" alt="music" />
+<img src="src/assets/images/music.png" alt="music" />
 <p>Login if you have account</p>
-<img src="Images/login.png" alt="login" />
+<img src="src/assets/images/login.png" alt="login" />
 <p>If you don't then Register and After Login</p>
-<img src="Images/register.png" alt="register" />
+<img src="src/assets/images/register.png" alt="register" />
 <p>Upload Your Favorite Music</p>
-<img src="Images/manage.png" alt="manage" />
+<img src="src/assets/images/manage.png" alt="manage" />
 
 <br/>
 Project Link: [https://music-black.vercel.app](https://music-black.vercel.app){target="_blank"}
