@@ -37,11 +37,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -50,10 +46,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![title](Images/music.png)
-![title](Images/login.png)
-![title](Images/register.png)
-![title](Images/manage.png)
+<img src="Images/music.png" alt="music" />
+
+<img src="Images/manage.png" alt="manage" />
 
 With Music App Experience music like never before. Music App gets you closer to the songs, albums and artists you love.
 
@@ -90,9 +85,9 @@ npm install --global yarn
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/nejmiyassine01/music-app/
-   ```
+ ```sh
+ git clone https://github.com/nejmiyassine01/music-app/
+ ```
 3. Project setup
 ```
 yarn install
@@ -130,13 +125,18 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 For Use the Music App follow this steps.
 
 <p>Go to Music App</p>
-![title](Images/music.png)
+<img src="Images/music.png" alt="music" />
 <p>Login if you have account</p>
-![title](Images/login.png)
+<img src="Images/login.png" alt="login" />
 <p>If you don't then Register and After Login</p>
-![title](Images/register.png)
+<img src="Images/register.png" alt="register" />
 <p>Upload Your Favorite Music</p>
-![title](Images/manage.png)
+<img src="Images/manage.png" alt="manage" />
+
+<br/>
+Project Link: [https://music-black.vercel.app](https://music-black.vercel.app){target="_blank"}
 
 
-Project Link: [https://music-black.vercel.app](https://music-black.vercel.app)
+<!-- Contact -->
+## Contact
+LinkedIn: [https://www.linkedin.com/in/yassine-nejmi/](https://www.linkedin.com/in/yassine-nejmi/){target="_blank"}
