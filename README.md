@@ -123,13 +123,20 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 For Use the Music App follow this steps.
 
-<p>Go to Music App</p>
+Go to Music App
+
 ![music](https://user-images.githubusercontent.com/51961523/129039952-68237c8c-77c0-407f-87d3-e980516f95e2.PNG)
-<p>Login if you have account</p>
+
+Login if you have account
+
 ![login](https://user-images.githubusercontent.com/51961523/129039899-51abd739-a5db-4f77-a0e1-acc26c821d94.PNG)
-<p>If you don't then Register and After Login</p>
+
+If you don't then Register and After Login
+
 ![register](https://user-images.githubusercontent.com/51961523/129039926-91b412d1-0a08-4549-a395-f6844259195f.PNG)
-<p>Upload Your Favorite Music</p>
+
+Upload Your Favorite Music
+
 ![manage](https://user-images.githubusercontent.com/51961523/129039830-197bec96-dea8-4863-8225-a02f255cd38c.PNG)
 
 <br/>
