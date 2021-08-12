@@ -44,12 +44,13 @@
 
 <script>
 import { mapState, mapMutations } from 'vuex';
-// ,  mapActions
 
 export default {
   name: 'Header',
   computed: {
-    ...mapState(['userLoggedIn']),
+    ...mapState({
+      userLoggedIn: (state) => state.auth.userLoggedIn,
+    }),
     currentLocale() {
       return this.$i18n.locale === 'fr' ? 'French' : 'English';
     },

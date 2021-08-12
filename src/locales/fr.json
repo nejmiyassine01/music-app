@@ -9,14 +9,14 @@
   "form": {
     "confirm": "Confirmer votre ",
     "country": "Pays",
-    "name": "Nom Complet",
-    "password": "Mot de Passe"
+    "name": "",
+    "password": "Mot de passe"
   },
   "header": {
-    "login": "Connecter",
+    "login": "Se Connecter",
     "logout": "Déconnecter",
     "manage": "Manager",
-    "register": "Créer un compte"
+    "register": "S'inscrire"
   },
   "home": {
     "listen": "Écoutez de la bonne musique!",

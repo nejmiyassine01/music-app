@@ -1,20 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '@/views/Home.vue';
-import About from '@/views/About.vue';
-import Manage from '@/views/Manage.vue';
-import Song from '@/views/Song.vue';
 import store from '@/store';
+
+const Home = () => import('@/views/Home.vue');
+const Manage = () => import('@/views/Manage.vue');
+const Song = () => import('@/views/Song.vue');
 
 const routes = [
   {
     name: 'home',
     path: '/',
     component: Home,
-  },
-  {
-    name: 'about',
-    path: '/about',
-    component: About,
   },
   {
     name: 'manage',
@@ -24,9 +19,6 @@ const routes = [
       requiresAuth: true,
     },
     component: Manage,
-    beforeEnter(to, from, next) {
-      next();
-    },
   },
   {
     path: '/manage',
@@ -55,7 +47,7 @@ router.beforeEach((to, from, next) => {
     return;
   }
 
-  if (store.state.userLoggedIn) {
+  if (store.state.auth.userLoggedIn) {
     next();
   } else {
     next({ name: 'home' });
